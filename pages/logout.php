@@ -1,8 +1,5 @@
 <?php
 
-    // start session
-    session_start();
-
     // remove the user session
     unset( $_SESSION['user'] );
 
